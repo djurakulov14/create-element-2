@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'SFProDisplay',sans-serif;
+}
+
+.cont {
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.title_of_block {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.chaynik {
+    width: 446px;
+    height: 491px;
+    background-image: url(../img/chaynik.png);
+    background-position: center;
+    background-size:cover;
+}
+
+.chaynik_2 {
+    width: 446px;
+    height: 491px;
+    background-image: url(../img/chaynik_2.png);
+    background-position: center;
+    background-size:cover;
+}
+
+.chaynik_3 {
+    width: 446px;
+    height: 491px;
+    background-image: url(../img/chaynik_3.png);
+    background-position: center;
+    background-size:cover;
+}
+
+.like {
+    width: 50px;
+    height: 63px;
+    background-color: white;
+    position: relative;
+    top: 0;
+    left: 396px;
+    text-align: center;
+}
+
+.like img {
+    margin-top: 15px;
+    width: 35px;
+    height: 30px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 19px;
+}
+
+.price {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 29px;
+}
+
+.display {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding-top: 30px;
+}
+
+.btn1 {
+    width: 327px;
+    height: 50px;
+    background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+    color: white;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.price_div div{
+    position: relative;
+    top: -3px;
+    width: 95.55px;
+    height: 0px;
+    opacity: 0.3;
+    border: 1px solid #031412;
+    transform: rotate(10.8deg);
+}
+
+.l_price {
+    margin-top: -15px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 19px;
+    opacity: 0.3;
+    color: #031412;
+}
+
+.s_price {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 29px;
+    color: #9B0000;
+}
+
+.sale {
+    position: relative;
+    top: 10px;
+    display: block;
+    width: 84px;
+    height: 36px;
+    background: #9B0000;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 96.4%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 8px;
+}
+
+.block {
+    width: 446px;
+    height: 332px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 215px;
+}
+
+.block img {
+    margin-bottom: 15px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 24px;
+    color: #031412;
+    margin-bottom: 18px;
+}
+
+.dsc {
+    width: 376px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #031412;
+    margin-bottom: 18px;
+}
+
+.data {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    color: #031412;
+}
+
+.karopka {
+    width: 327px;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.img {
+    background-image: url(../img/zvezda.png);
+    background-position: center;
+    background-size: cover;
+    width: 76px;
+    height: 76px;
+}
+
+.title_2 {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 19px;
+    color: #031412;
+}
+
+.dsc_2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #031412;
+}
+
+.link {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    background: linear-gradient(65.81deg, #5E3928 -24.09%, #E4A16F 104.02%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cont4 {
+    width: 1408px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+footer {
+    height: 375px;
+    background: linear-gradient(285.45deg, #0B3F37 38.27%, #CB8D62 141.81%);
+}
+
+.footer {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 85px;
+}
+
+.left p {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #ADADAD;
+}
+
+.left a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.row p {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.row a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.row a :hover {
+    text-decoration: underline;
+}
+
+.row{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    gap: 150px;
+}
